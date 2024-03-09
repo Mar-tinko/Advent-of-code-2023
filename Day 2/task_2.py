@@ -41,7 +41,7 @@ def summarize_thelist(thelist):
     return resulttt
 
 
-with open('advent2_document') as f:
+with open('puzzle_input') as f:
     document = f.read().splitlines()
 
 dice_game_dictionary = {}
