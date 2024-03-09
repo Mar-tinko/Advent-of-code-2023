@@ -6,10 +6,10 @@ def game_number_and_content(aline):
     return game_num, game_cont
 
 
-def get_colour_and_number(a_colour):
-    a_colour = a_colour.split(" ")
-    a_colour = list(filter(None, a_colour))
-    return a_colour
+def get_colour_and_number(a_set):
+    a_set = a_set.split(" ")
+    a_set = list(filter(None, a_set))
+    return a_set
 
 
 def insert_missing_colours(this_set):
